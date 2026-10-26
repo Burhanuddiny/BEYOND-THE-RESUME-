@@ -1,0 +1,6 @@
+{
+  "name": "Beyond the Resume",
+  "description": "Show your skills. Don't just list them. A workplace simulation platform helping college students demonstrate real-world engineering readiness.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

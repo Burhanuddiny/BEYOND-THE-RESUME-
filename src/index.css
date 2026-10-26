@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    background-color: #FAF0F3;
+    color: #2D1822;
+  }
+
+  h1, h2, h3, .font-vintage-serif {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+  }
+}
+
+/* Custom Vintage aesthetic utility styles */
+.vintage-paper {
+  background-color: #FFF9FA;
+  background-image: radial-gradient(#E8B8C6 0.75px, transparent 0.75px);
+  background-size: 20px 20px;
+}
+
+.vintage-stamp {
+  border: 1px dashed #D697A8;
+}
+
+.vintage-border {
+  border-color: #EAC9D2;
+}
+
+.vintage-card {
+  background: #FFFFFF;
+  border: 1px solid #EAC8D2;
+  box-shadow: 0 4px 20px -2px rgba(138, 48, 73, 0.07), 0 2px 6px -1px rgba(138, 48, 73, 0.04);
+}
+
+.vintage-card-soft {
+  background: #FFF5F7;
+  border: 1px solid #ECCCD5;
+}
+
+.vintage-badge {
+  background-color: #FCE8EE;
+  color: #8C2E47;
+  border: 1px solid #ECC2CE;
+}
